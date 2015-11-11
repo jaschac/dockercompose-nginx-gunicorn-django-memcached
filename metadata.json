@@ -1,0 +1,20 @@
+{
+  "author" : "Jascha Casadio",
+  "dependencies" : [],
+  "description": "A multi-container application deploys an Nginx web server serving a Django application, supported by Memcached, through the Gunicorn Web Server Gateway Interface HTTP Server.",
+  "issues_url": "https://bitbucket.org/lostinmalloc/dockerhub/apps/nginx-gunicorn-django-memcached",
+  "license": "Apache-2.0",
+  "name": "nginx-gunicorn-django-memcached",
+  "operatingsystem_support": [],
+  "project_page": "https://bitbucket.org/lostinmalloc/dockerhub/apps/nginx-gunicorn-django-memcached",
+  "requirements": [
+      "name": "docker",
+      "version_requirement": ">=1.8.3"
+    }
+  ],
+  "source": "https://bitbucket.org/lostinmalloc/dockerhub/src",
+  "summary": "Multi-container Nginx serving Django/Gunicorn.",
+  "tags":["django", "gunicorn", "nginx", "python", "web application"],
+  "version": "0.0.1"
+}
+
